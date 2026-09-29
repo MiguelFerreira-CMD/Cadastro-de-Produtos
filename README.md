@@ -40,8 +40,8 @@ CSV — armazenamento dos dados dos produtos
 
 # Estrutura do projeto 📂
 
-Cadastro-de-Produtos/
-│
+CadastroDeProdutos/
+
 ├── codigo.py
 ├── auxiliar.py
 ├── produtos.csv
