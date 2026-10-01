@@ -38,30 +38,6 @@ Pandas — leitura e manipulação dos dados
 
 CSV — armazenamento dos dados dos produtos
 
-# Estrutura do projeto 📂
-
-CadastroDeProdutos/
-
-├── codigo.py
-├── auxiliar.py
-├── produtos.csv
-├── .vscode/
-└── README.md
-
-# Como executar
-
-1. Clone o repositório
-git clone https://github.com/MiguelFerreira-CMD/Cadastro-de-Produtos.git
-
-2. Entre na pasta
-cd Cadastro-de-Produtos
-
-3. Instale as bibliotecas necessárias
-pip install pyautogui pandas
-
-4. Execute o programa
-python codigo.py
-
 # Base de dados
 
 Os produtos utilizados na automação estão armazenados no arquivo:
