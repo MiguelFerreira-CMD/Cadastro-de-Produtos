@@ -1,79 +1,31 @@
 # Cadastro de Produtos
 
-Automação desenvolvida em Python para realizar o cadastro automático de produtos em um sistema web a partir de uma base de dados em CSV.
+Automação desenvolvida em **Python** para realizar o cadastro automático de produtos em um sistema web a partir de uma base de dados em CSV.
 
-Este projeto foi desenvolvido como um exercício prático de aprendizado, com foco em automação de tarefas, manipulação de dados e interação com interfaces gráficas.
+O projeto foi desenvolvido como um exercício prático de aprendizado, com foco em **automação de tarefas, manipulação de dados e interação com interfaces gráficas**.
 
-# Sobre o projeto
+## Funcionalidades
 
-O programa utiliza PyAutoGUI para automatizar o preenchimento de um sistema web.
+- Leitura de produtos a partir de um arquivo CSV
+- Processamento dos dados utilizando Pandas
+- Cadastro automático dos produtos
+- Automação de teclado e mouse
+- Preenchimento automático de formulários
+- Processamento de vários produtos através de um loop
 
-Os dados dos produtos são armazenados em um arquivo produtos.csv e processados utilizando Pandas.
+## Tecnologias utilizadas
 
-A automação percorre cada produto da base de dados e realiza seu cadastro automaticamente no sistema.
+- **Python**
+- **PyAutoGUI** — automação de teclado e mouse
+- **Pandas** — leitura e manipulação dos dados
+- **CSV** — armazenamento dos dados dos produtos
 
-# Funcionamento
+## Estrutura do projeto 📂
 
-Base de dados (CSV)
-        ↓
-     Pandas
-        ↓
-Leitura dos produtos
-        ↓
-      Loop
-        ↓
-    PyAutoGUI
-        ↓
-Preenchimento do formulário
-        ↓
-Cadastro do produto
-
-# Tecnologias utilizadas
-
-Python
-
-PyAutoGUI — automação de teclado e mouse
-
-Pandas — leitura e manipulação dos dados
-
-CSV — armazenamento dos dados dos produtos
-
-# Base de dados
-
-Os produtos utilizados na automação estão armazenados no arquivo:
-
-produtos.csv
-
-O programa utiliza o Pandas para ler a tabela e percorre cada linha para realizar o cadastro.
-
-# O que pratiquei neste projeto
-
-Este exercício foi utilizado para praticar conceitos importantes de Python, como:
-
-Importação e utilização de bibliotecas;
-
-Variáveis;
-
-Estruturas de repetição (for);
-
-Estruturas condicionais (if);
-
-Conversão de tipos com str();
-
-Leitura e manipulação de arquivos CSV;
-
-Utilização do Pandas;
-
-Automação de teclado e mouse com PyAutoGUI;
-
-Organização de um projeto no GitHub;
-
-Versionamento utilizando Git.
-
-# Objetivo
-
-O principal objetivo deste projeto foi colocar em prática os conhecimentos adquiridos durante os estudos de Python, transformando conceitos de programação em uma automação capaz de executar uma tarefa repetitiva.
-
-# Autor
-
-Miguel Ferreira
+```text
+Cadastro-de-Produtos/
+│
+├── codigo.py
+├── produtos.csv
+├── requirements.txt
+└── README.md
